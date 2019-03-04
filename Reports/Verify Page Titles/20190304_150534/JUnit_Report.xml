@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Page Titles" time="67" tests="1" failures="2" errors="0">
+   <testsuite name="Verify Page Titles" tests="1" failures="2" errors="0" time="67" timestamp="2019-03-04 15:05:36" hostname="ukhatsko - ukhatsko2097nt.exadel.by" id="Test Suites/Verify Page Titles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ukhatsko\\git\\com.exadel.training\\Reports\\Verify Page Titles\\20190304_150534"/>
+         <property name="logFiles" value="C:\\Users\\ukhatsko\\git\\com.exadel.training\\Reports\\Verify Page Titles\\20190304_150534\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ukhatsko\\git\\com.exadel.training\\Reports\\Verify Page Titles\\20190304_150534\\1551701196170.png, C:\\Users\\ukhatsko\\git\\com.exadel.training\\Reports\\Verify Page Titles\\20190304_150534\\1551701196677.png"/>
+         <property name="hostName" value="ukhatsko - ukhatsko2097nt.exadel.by"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.4.7"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="10.130.40.53"/>
+         <property name="sessionId" value="099c1ce7fd658df895e98e333d4442ca"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Open Car Catalog page" classname="Test Cases/Open Car Catalog page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Open Car Catalog page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Open Car Catalog page.run(Open Car Catalog page:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-04 15:05:36 - [TEST_CASE][FAILED] - Test Cases/Open Car Catalog page: Test Cases/Open Car Catalog page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Open Car Catalog page.run(Open Car Catalog page:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)
+
+
+2019-03-04 15:05:37 - [TEST_STEP][PASSED] - openBrowser("https://www.onliner.by/"): Browser is opened with url: 'https://www.onliner.by/'
+
+2019-03-04 15:05:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-04 15:05:37 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-04 15:05:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.onliner.by/'
+
+2019-03-04 15:05:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-04 15:05:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-04 15:05:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Onliner/img__onliner_logo"), 3): Object 'Object Repository/Page_Onliner/img__onliner_logo' is visible
+
+2019-03-04 15:05:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Onliner/img__onliner_logo' is visible
+
+2019-03-04 15:05:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/script_mode/Page_Onliner/span_"), 3): Object 'Object Repository/script_mode/Page_Onliner/span_' is present
+
+2019-03-04 15:05:44 - [MESSAGE][PASSED] - Object 'Object Repository/script_mode/Page_Onliner/span_' is present
+
+2019-03-04 15:05:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/script_mode/Page_Onliner/span_")): Object: 'Object Repository/script_mode/Page_Onliner/span_' is clicked on
+
+2019-03-04 15:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/script_mode/Page_Onliner/span_' is clicked on
+
+2019-03-04 15:05:49 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-03-04 15:05:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-04 15:05:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/script_mode/Page_        -/h1_"), 5): Object 'Object Repository/script_mode/Page_        -/h1_' is visible
+
+2019-03-04 15:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/script_mode/Page_        -/h1_' is visible
+
+2019-03-04 15:05:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("script_mode/Page_/select_"), "5", false): All options with value '5' are selected in object 'Object Repository/script_mode/Page_/select_' 
+
+2019-03-04 15:05:49 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/script_mode/Page_/select_' 
+
+2019-03-04 15:05:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/script_mode/Page_        -/h1_"), 5): Object 'Object Repository/script_mode/Page_        -/h1_' is present
+
+2019-03-04 15:05:49 - [MESSAGE][PASSED] - Object 'Object Repository/script_mode/Page_        -/h1_' is present
+
+2019-03-04 15:05:49 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-03-04 15:05:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-04 15:05:49 - [TEST_STEP][PASSED] - carCatalogTitle = getText(findTestObject("Object Repository/script_mode/Page_        -/h1_")): Text of object 'Object Repository/script_mode/Page_        -/h1_' is: 'Автобарахолка'
+
+2019-03-04 15:05:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/script_mode/Page_        -/h1_' is: 'Автобарахолка'
+
+2019-03-04 15:05:49 - [TEST_STEP][FAILED] - verifyEqual(carCatalogTitle, "BMW"): verifyEqual(carCatalogTitle, "BMW") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Open Car Catalog page.run(Open Car Catalog page:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)
+
+
+2019-03-04 15:05:49 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+
+2019-03-04 15:05:49 - [MESSAGE][FAILED] - verifyEqual(carCatalogTitle, "BMW") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Open Car Catalog page.run(Open Car Catalog page:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-04 15:05:36 - [TEST_CASE][FAILED] - Test Cases/Open Car Catalog page: Test Cases/Open Car Catalog page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Open Car Catalog page.run(Open Car Catalog page:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Mobile Phones Catalog title" classname="Test Cases/Verify Mobile Phones Catalog title" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Verify Mobile Phones Catalog title FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_/h1_' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Verify Mobile Phones Catalog title.run(Verify Mobile Phones Catalog title:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)
+"/>
+         <system-out><![CDATA[2019-03-04 15:05:49 - [TEST_CASE][FAILED] - Test Cases/Verify Mobile Phones Catalog title: Test Cases/Verify Mobile Phones Catalog title FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_/h1_' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Verify Mobile Phones Catalog title.run(Verify Mobile Phones Catalog title:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)
+
+
+2019-03-04 15:05:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-04 15:05:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-04 15:05:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-04 15:05:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-04 15:05:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.onliner.by/"): Navigate to 'https://www.onliner.by/' successfully
+
+2019-03-04 15:05:56 - [MESSAGE][PASSED] - Navigate to 'https://www.onliner.by/' successfully
+
+2019-03-04 15:05:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Onliner/img__onliner_logo"), 0): Object 'Object Repository/Page_Onliner/img__onliner_logo' is visible
+
+2019-03-04 15:05:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-03-04 15:05:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Onliner/img__onliner_logo' is visible
+
+2019-03-04 15:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Onliner/span_")): Object: 'Object Repository/Page_Onliner/span_' is clicked on
+
+2019-03-04 15:05:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onliner/span_' is clicked on
+
+2019-03-04 15:05:59 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Page_/h1_"), 3): Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found
+
+2019-03-04 15:06:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-04 15:06:03 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found
+
+2019-03-04 15:06:03 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Object Repository/Page_/h1_"), "Мобильные телефоны"): verifyElementText(findTestObject("Object Repository/Page_/h1_"), "Мобильные телефоны") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_/h1_' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Verify Mobile Phones Catalog title.run(Verify Mobile Phones Catalog title:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)
+
+
+2019-03-04 15:06:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-04 15:06:36 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found
+[[ATTACHMENT|C:\\Users\\ukhatsko\\git\\com.exadel.training\\Reports\\Verify Page Titles\\20190304_150534\\1551701196170.png]]
+
+2019-03-04 15:06:37 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_/h1_' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found)
+[[ATTACHMENT|C:\\Users\\ukhatsko\\git\\com.exadel.training\\Reports\\Verify Page Titles\\20190304_150534\\1551701196677.png]]
+
+2019-03-04 15:06:37 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Object Repository/Page_/h1_"), "Мобильные телефоны") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_/h1_' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Verify Mobile Phones Catalog title.run(Verify Mobile Phones Catalog title:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-03-04 15:05:49 - [TEST_CASE][FAILED] - Test Cases/Verify Mobile Phones Catalog title: Test Cases/Verify Mobile Phones Catalog title FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_/h1_' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_/h1_' located by 'By.xpath: //div[@id='container']/div/div[2]/div/div/div[2]/div[2]/div[3]/h1' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$8.call(Unknown Source)
+	at Verify Mobile Phones Catalog title.run(Verify Mobile Phones Catalog title:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Verify Onlner Page logo is present" classname="Test Cases/Verify Onlner Page logo is present" status="PASSED">
+         <system-out><![CDATA[2019-03-04 15:06:37 - [TEST_CASE][PASSED] - Test Cases/Verify Onlner Page logo is present: Test Cases/Verify Onlner Page logo is present
+
+2019-03-04 15:06:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-04 15:06:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-04 15:06:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-04 15:06:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-04 15:06:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.onliner.by/"): Navigate to 'https://www.onliner.by/' successfully
+
+2019-03-04 15:06:42 - [MESSAGE][PASSED] - Navigate to 'https://www.onliner.by/' successfully
+
+2019-03-04 15:06:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Onliner/img__onliner_logo"), 3): Object 'Object Repository/Page_Onliner/img__onliner_logo' is visible
+
+2019-03-04 15:06:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Onliner/img__onliner_logo' is visible
+
+2019-03-04 15:06:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-04 15:06:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-04 15:05:36 - [TEST_SUITE][FAILED] - Verify Page Titles: Test Cases/Open Car Catalog page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Open Car Catalog page.run(Open Car Catalog page:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-03-04 15:05:36 - [TEST_SUITE][FAILED] - Verify Page Titles: Test Cases/Open Car Catalog page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify equal between actual object 'Автобарахолка' and expected object 'BMW' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'Автобарахолка' and expected object 'BMW' are not equal)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:56)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at Open Car Catalog page.run(Open Car Catalog page:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551701134879.run(TempTestSuite1551701134879.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
