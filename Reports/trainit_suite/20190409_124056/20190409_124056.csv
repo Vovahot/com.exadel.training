@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+trainit_suite,Firefox 48.0,,2019-04-09 12:41:00,2019-04-09 12:41:57,57.047s,PASSED
+,,,,,,
+Test Cases/training/FirstTestCase,Firefox 48.0,,2019-04-09 12:41:01,2019-04-09 12:41:34,32.868s,PASSED
+"openBrowser("""")",Firefox 48.0,,2019-04-09 12:41:02,2019-04-09 12:41:17,14.627s,PASSED
+"navigateToUrl(""https://www.onliner.by/"")",Firefox 48.0,,2019-04-09 12:41:17,2019-04-09 12:41:22,5.598s,PASSED
+"click(findTestObject(""Object Repository/onliner_mobile/Page_Onliner/mobile_catalog_btn""))",Firefox 48.0,,2019-04-09 12:41:22,2019-04-09 12:41:23,0.722s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/onliner_mobile/Page_/mobile_catalog_title""))",Firefox 48.0,,2019-04-09 12:41:23,2019-04-09 12:41:33,9.791s,PASSED
+closeBrowser(),Firefox 48.0,,2019-04-09 12:41:33,2019-04-09 12:41:34,0.992s,PASSED
+,,,,,,
+Test Cases/training/Open Car Catalog page,Firefox 48.0,,2019-04-09 12:41:34,2019-04-09 12:41:57,23.505s,PASSED
+"openBrowser(""https://www.onliner.by/"")",Firefox 48.0,,2019-04-09 12:41:34,2019-04-09 12:41:47,12.895s,PASSED
+maximizeWindow(),Firefox 48.0,,2019-04-09 12:41:47,2019-04-09 12:41:47,0.332s,PASSED
+"waitForElementVisible(findTestObject(""Page_Onliner/img__onliner_logo""), 3)",Firefox 48.0,,2019-04-09 12:41:47,2019-04-09 12:41:48,0.414s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/script_mode/Page_Onliner/span_""), 3)",Firefox 48.0,,2019-04-09 12:41:48,2019-04-09 12:41:48,0.115s,PASSED
+"click(findTestObject(""Object Repository/script_mode/Page_Onliner/span_""))",Firefox 48.0,,2019-04-09 12:41:48,2019-04-09 12:41:48,0.486s,PASSED
+waitForPageLoad(5),Firefox 48.0,,2019-04-09 12:41:48,2019-04-09 12:41:52,3.867s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/script_mode/Page_        -/h1_""), 5)",Firefox 48.0,,2019-04-09 12:41:52,2019-04-09 12:41:52,0.155s,PASSED
+"selectOptionByValue(findTestObject(""script_mode/Page_/select_""), ""5"", false)",Firefox 48.0,,2019-04-09 12:41:52,2019-04-09 12:41:54,1.354s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/script_mode/Page_        -/h1_""), 5)",Firefox 48.0,,2019-04-09 12:41:54,2019-04-09 12:41:54,0.815s,PASSED
+waitForPageLoad(5),Firefox 48.0,,2019-04-09 12:41:54,2019-04-09 12:41:55,0.602s,PASSED
+"carCatalogTitle = getText(findTestObject(""Object Repository/script_mode/Page_        -/h1_""))",Firefox 48.0,,2019-04-09 12:41:55,2019-04-09 12:41:56,0.791s,PASSED
+"verifyEqual(carCatalogTitle, ""BMW"")",Firefox 48.0,,2019-04-09 12:41:56,2019-04-09 12:41:56,0.024s,PASSED
+closeBrowser(),Firefox 48.0,,2019-04-09 12:41:56,2019-04-09 12:41:57,1.427s,PASSED

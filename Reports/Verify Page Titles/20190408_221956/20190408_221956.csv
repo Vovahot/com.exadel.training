@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify Page Titles,Firefox 48.0,,2019-04-08 22:19:59,2019-04-08 22:21:18,1m - 19.567s,FAILED
+,,,,,,
+Test Cases/Open Car Catalog page,Firefox 48.0,,2019-04-08 22:19:59,2019-04-08 22:20:50,50.558s,FAILED
+"openBrowser(""https://www.onliner.by/"")",Firefox 48.0,,2019-04-08 22:20:00,2019-04-08 22:20:36,35.897s,PASSED
+maximizeWindow(),Firefox 48.0,,2019-04-08 22:20:36,2019-04-08 22:20:36,0.702s,PASSED
+"waitForElementVisible(findTestObject(""Page_Onliner/img__onliner_logo""), 3)",Firefox 48.0,,2019-04-08 22:20:36,2019-04-08 22:20:37,0.331s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/script_mode/Page_Onliner/span_""), 3)",Firefox 48.0,,2019-04-08 22:20:37,2019-04-08 22:20:37,0.191s,PASSED
+"click(findTestObject(""Object Repository/script_mode/Page_Onliner/span_""))",Firefox 48.0,,2019-04-08 22:20:37,2019-04-08 22:20:38,0.683s,PASSED
+waitForPageLoad(5),Firefox 48.0,,2019-04-08 22:20:38,2019-04-08 22:20:50,12.156s,FAILED
+,,,,,,
+Test Cases/Verify Mobile Phones Catalog title,Firefox 48.0,,2019-04-08 22:20:50,2019-04-08 22:21:07,17.475s,PASSED
+"openBrowser("""")",Firefox 48.0,,2019-04-08 22:20:50,2019-04-08 22:20:58,7.480s,PASSED
+"navigateToUrl(""https://www.onliner.by/"")",Firefox 48.0,,2019-04-08 22:20:58,2019-04-08 22:21:01,3.650s,PASSED
+"waitForElementVisible(findTestObject(""Page_Onliner/img__onliner_logo""), 0)",Firefox 48.0,,2019-04-08 22:21:01,2019-04-08 22:21:01,0.140s,PASSED
+"click(findTestObject(""Object Repository/Page_Onliner/span_""))",Firefox 48.0,,2019-04-08 22:21:01,2019-04-08 22:21:02,0.246s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Page_/h1_""), 3)",Firefox 48.0,,2019-04-08 22:21:02,2019-04-08 22:21:07,4.986s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_/h1_""), ""Мобильные телефоны"")",Firefox 48.0,,2019-04-08 22:21:07,2019-04-08 22:21:07,0.118s,PASSED
+closeBrowser(),Firefox 48.0,,2019-04-08 22:21:07,2019-04-08 22:21:07,0.556s,PASSED
+,,,,,,
+Test Cases/Verify Onlner Page logo is present,Firefox 48.0,,2019-04-08 22:21:07,2019-04-08 22:21:18,11.052s,PASSED
+"openBrowser("""")",Firefox 48.0,,2019-04-08 22:21:07,2019-04-08 22:21:14,6.968s,PASSED
+"navigateToUrl(""https://www.onliner.by/"")",Firefox 48.0,,2019-04-08 22:21:14,2019-04-08 22:21:18,3.449s,PASSED
+"waitForElementVisible(findTestObject(""Page_Onliner/img__onliner_logo""), 3)",Firefox 48.0,"Onliner page logo
+",2019-04-08 22:21:18,2019-04-08 22:21:18,0.113s,PASSED
+closeBrowser(),Firefox 48.0,,2019-04-08 22:21:18,2019-04-08 22:21:18,0.369s,PASSED

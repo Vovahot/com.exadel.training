@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_</name>
+   <tag></tag>
+   <elementGuidId>0d76eb0b-4849-4a87-b6d1-95dda30158b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='models_manufactures_id[]']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>manufacture</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>models_manufactures_id[]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Все марки
+
+                        Acura (49)Alfa Romeo (160)Asia (1)Aston Martin (1)Audi (1940)Austin (1)Avia (1)Barkas (3)BAW (2)Bentley (3)BMW (2461)Brilliance (1)Buick (64)BYD (1)Cadillac (47)Chery (30)Chevrolet (348)Chrysler (301)Citroen (1151)Dacia (29)Daewoo (132)DAF (4)Daihatsu (29)Datsun (3)Dodge (217)Dongfeng (5)Factory Five (1)FAW (1)Fiat (613)Ford (1903)FSO (1)Geely (43)Genesis (23)GMC (9)Great Wall (36)Haval (16)Honda (628)Hummer (7)Hyundai (844)Infiniti (217)Intrall (1)Iran Khordo (3)Isuzu (11)Iveco (105)Jaguar (49)Jeep (102)Jiangling (1)Kia (720)Lancia (82)Land Rover (197)Lexus (264)Lifan (43)Lincoln (29)Lotus (1)Mahindra (1)Maserati (6)Mazda (989)MCC Smart (18)McLaren (1)Mercedes (2132)Mercury (4)MG (6)Mini (64)Mitsubishi (641)Mudan (2)Nissan (1131)Nysa (1)Oldsmobile (1)Opel (1869)Peugeot (1352)Piaggio (1)Plymouth (4)Pontiac (28)Porsche (103)Proton (7)Ravon (10)Renault (1692)Rover (168)Saab (84)Saturn (6)Scion (6)Seat (197)Skoda (559)Ssang Yong (60)Subaru (238)Suzuki (184)Syrena (1)Tata (2)Tesla (14)Toyota (1024)Triumph (1)Volkswagen (3077)Volvo (646)Vortex (2)Zotye (3)ZX (1)ВАЗ (Lada) (451)ГАЗ (130)ЗАЗ (31)ИЖ (8)ЛуАЗ (15)Москвич (43)РАФ (1)СМЗ (4)УАЗ (80)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;minWidth&quot;)/div[@class=&quot;onliner-outer&quot;]/div[@class=&quot;l-gradient-wrapper&quot;]/div[@class=&quot;b-whbd&quot;]/div[@class=&quot;b-whbd-i&quot;]/div[@class=&quot;grid grid-1&quot;]/div[@class=&quot;l-col-1&quot;]/div[@class=&quot;l-col-1-i&quot;]/div[@class=&quot;grid grid-autoba&quot;]/div[@class=&quot;l-col-1&quot;]/form[@class=&quot;ofm-forms autoba-filters&quot;]/fieldset[@class=&quot;autoba-filters-single car-brands&quot;]/div[@class=&quot;ofm-forms-ips manufactures&quot;]/div[@class=&quot;selsgroup&quot;]/select[@class=&quot;manufacture&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@name='models_manufactures_id[]']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='minWidth']/div/div[2]/div[2]/div/div[3]/div/div/div[2]/div/form/fieldset[5]/div/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Марка'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Растаможен'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Добавить марку'])[1]/preceding::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Тип кузова'])[1]/preceding::select[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//fieldset[5]/div/div/select</value>
+   </webElementXpaths>
+</WebElementEntity>
