@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+trainingSuite,Chrome 73.0.3683.103,,2019-04-10 14:27:35,2019-04-10 14:28:13,37.760s,PASSED
+,,,,,,
+Test Cases/training/FirstTestCase,Chrome 73.0.3683.103,,2019-04-10 14:27:35,2019-04-10 14:27:54,18.780s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-10 14:27:36,2019-04-10 14:27:42,6.202s,PASSED
+"navigateToUrl(""https://www.onliner.by/"")",Chrome 73.0.3683.103,,2019-04-10 14:27:42,2019-04-10 14:27:47,4.632s,PASSED
+"click(findTestObject(""Object Repository/onliner_mobile/Page_Onliner/mobile_catalog_btn""))",Chrome 73.0.3683.103,,2019-04-10 14:27:47,2019-04-10 14:27:53,5.477s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/onliner_mobile/Page_/mobile_catalog_title""))",Chrome 73.0.3683.103,,2019-04-10 14:27:53,2019-04-10 14:27:53,0.151s,PASSED
+"verifyElementText(findTestObject(""Object Repository/onliner_mobile/Page_/mobile_catalog_title""), ""Мобильные телефоны"")",Chrome 73.0.3683.103,,2019-04-10 14:27:53,2019-04-10 14:27:53,0.161s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-10 14:27:53,2019-04-10 14:27:54,1.280s,PASSED
+,,,,,,
+Test Cases/training/Open Car Catalog page,Chrome 73.0.3683.103,,2019-04-10 14:27:54,2019-04-10 14:28:13,18.347s,PASSED
+"openBrowser(""https://www.onliner.by/"")",Chrome 73.0.3683.103,,2019-04-10 14:27:55,2019-04-10 14:28:02,7.115s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-10 14:28:02,2019-04-10 14:28:03,1.423s,PASSED
+"waitForElementVisible(findTestObject(""Page_Onliner/img__onliner_logo""), 3)",Chrome 73.0.3683.103,,2019-04-10 14:28:03,2019-04-10 14:28:04,0.522s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/script_mode/Page_Onliner/span_""), 3)",Chrome 73.0.3683.103,,2019-04-10 14:28:04,2019-04-10 14:28:04,0.081s,PASSED
+"click(findTestObject(""Object Repository/script_mode/Page_Onliner/span_""))",Chrome 73.0.3683.103,,2019-04-10 14:28:04,2019-04-10 14:28:09,5.661s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/script_mode/Page_        -/h1_""), 5)",Chrome 73.0.3683.103,,2019-04-10 14:28:09,2019-04-10 14:28:09,0.134s,PASSED
+"selectOptionByValue(findTestObject(""script_mode/Page_/select_""), ""5"", false)",Chrome 73.0.3683.103,,2019-04-10 14:28:09,2019-04-10 14:28:10,0.508s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/script_mode/Page_        -/h1_""), 5)",Chrome 73.0.3683.103,,2019-04-10 14:28:10,2019-04-10 14:28:10,0.093s,PASSED
+waitForPageLoad(3),Chrome 73.0.3683.103,,2019-04-10 14:28:10,2019-04-10 14:28:11,0.633s,PASSED
+"carCatalogTitle = getText(findTestObject(""Object Repository/script_mode/Page_        -/h1_""))",Chrome 73.0.3683.103,,2019-04-10 14:28:11,2019-04-10 14:28:11,0.182s,PASSED
+"verifyEqual(carCatalogTitle, ""BMW"")",Chrome 73.0.3683.103,,2019-04-10 14:28:11,2019-04-10 14:28:11,0.047s,PASSED
+"if (carCatalogTitle.equals(""BMW""))",Chrome 73.0.3683.103,,2019-04-10 14:28:11,2019-04-10 14:28:11,0.010s,PASSED
+closeBrowser(),Chrome 73.0.3683.103,,2019-04-10 14:28:11,2019-04-10 14:28:12,1.541s,PASSED
