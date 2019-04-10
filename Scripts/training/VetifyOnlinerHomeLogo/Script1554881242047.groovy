@@ -13,32 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.onliner.by/')
+WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementVisible(findTestObject('Page_Onliner/img__onliner_logo'), 3)
+WebUI.navigateToUrl('https://www.onliner.by/')
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/script_mode/Page_Onliner/span_'), 3)
-
-WebUI.click(findTestObject('Object Repository/script_mode/Page_Onliner/span_'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/script_mode/Page_        -/h1_'), 5)
-
-WebUI.selectOptionByValue(findTestObject('script_mode/Page_/select_'), '5', false)
-
-WebUI.waitForElementPresent(findTestObject('Object Repository/script_mode/Page_        -/h1_'), 5)
-
-WebUI.waitForPageLoad(3)
-
-String carCatalogTitle = WebUI.getText(findTestObject('Object Repository/script_mode/Page_        -/h1_'))
-
-WebUI.verifyEqual(carCatalogTitle, 'BMW')
-
-if(carCatalogTitle.equals('BMW'))
-{
-	println ('YESSSS')
-}
+WebUI.verifyElementVisible(findTestObject('Object Repository/for training/Page_Onliner/home_image'))
 
 WebUI.closeBrowser()
 
